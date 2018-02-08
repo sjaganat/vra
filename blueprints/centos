@@ -1,0 +1,30 @@
+ prod-prop-1:
+    default: prod overridable default
+    required: false
+    secured: false
+    visible: false
+  prod enc show:
+    default: 'myPassword'
+    required: true
+    secured: true
+    visible: true
+  prod encrypted:
+    default: 'defaultEncrypted'
+    required: false
+    secured: true
+    visible: false
+  prod show:
+    default: demo show
+    required: true
+    secured: false
+    visible: true
+  prod-whatever:
+    default: a prod whatever field
+    required: true
+    secured: false
+    visible: true
+  DEMO-For-marshall:
+    default: a blah blah
+    required: true
+    secured: false
+visible: true
